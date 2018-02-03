@@ -9,21 +9,21 @@
 
 //Relating to time
 days = 0;
-hours = 23;
-minutes = 58;
-minuteRate = room_speed * 1;
+hours = 8;
+minutes = 0;
+minuteRate = room_speed * 0.25;
 amOrPm = false
 timeStr = "";
 timer = 0
 
 
 //Dealing with Monster Stats
-hp = 50;
+hp = 100;
 maxHp = 100;
-hunger = 75;
+hunger = 100;
 maxHunger = 100;
 //Need for followers
-nFF = 75;
+nFF = 50;
 maxNFF = 100;
 numberOfFollowers = 0;
 

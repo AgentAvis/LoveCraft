@@ -8,13 +8,18 @@ timer ++
 if timer > minuteRate {
     
 	minutes++;
+	if(hunger <= 0){
+		hp-=0.5;	
+	}
 	
+		hunger-=0.05;
 	
     timer = 0 //reset the timer
 }
 
 if(minutes == 60){
 	hours++;	
+
 	minutes = 0;
 }
 

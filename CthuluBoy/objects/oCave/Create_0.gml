@@ -1,11 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
-tary = -90
-
-tarx = 0;
-
-
-hasPicked = false;
-human = noone;
+depth = 1;
