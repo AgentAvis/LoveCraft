@@ -47,4 +47,8 @@ GUISCALE_X = 1600/window_get_width();
 GUISCALE_Y = 900/window_get_height();
 
 
+color1 = make_color_rgb(169,51,51);
+color2 = make_color_rgb(226,105,24);
+color3 = make_color_rgb(127,0,55);
+
 

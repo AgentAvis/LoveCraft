@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "3266cd18-9c4e-4714-b268-2b3dd8ab69bc",
+            "Value": {
+                "id": "ca51e8cb-719e-4795-b15b-e3d120f5c08c",
+                "resourcePath": "views\\3266cd18-9c4e-4714-b268-2b3dd8ab69bc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "37431b08-ad45-4c75-b42b-c8e188e8aedf",
             "Value": {
                 "id": "7c6cd320-e137-4fcf-ac34-001de2bc0ea4",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "56bb2ea5-0453-4f9e-9f4c-e7c3ab2d9f2f",
+            "Value": {
+                "id": "ba88da7d-80cc-4922-b77b-324dd3266d90",
+                "resourcePath": "views\\56bb2ea5-0453-4f9e-9f4c-e7c3ab2d9f2f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5db7a8ff-d743-4168-937d-249ab58dda6a",
             "Value": {
                 "id": "65268640-c9b8-47a4-bb71-8b77a05ea405",
@@ -236,6 +252,14 @@
                 "id": "68e435ed-5c50-4d74-87e3-3b02715515de",
                 "resourcePath": "scripts\\console_create\\console_create.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6eb98cda-8329-4bc7-a8a8-32bdbf4146f2",
+            "Value": {
+                "id": "57c90079-35be-4207-9f60-0aac8bea45e8",
+                "resourcePath": "views\\6eb98cda-8329-4bc7-a8a8-32bdbf4146f2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -439,6 +463,14 @@
             }
         },
         {
+            "Key": "d2df87c4-2b80-4aaa-839e-9a4a0b53ad59",
+            "Value": {
+                "id": "f50cd824-57ea-4aad-917e-719bb767c600",
+                "resourcePath": "sprites\\sTentacle\\sTentacle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d83d4a54-8c09-49e6-913d-0dc501c414fb",
             "Value": {
                 "id": "8ecfce94-dd2b-4eb2-86f2-c8f94f82bd80",
@@ -476,6 +508,14 @@
                 "id": "a2c8d4c4-fdc6-40dd-acb6-bd92bd399845",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "ece6b791-9b43-4bd4-a7ed-88ff8c273e08",
+            "Value": {
+                "id": "7a9ed58b-b7f6-4e45-b151-01ca969598ee",
+                "resourcePath": "objects\\o_tentacle\\o_tentacle.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -8,8 +8,8 @@ draw_text(10,10,timeStr);
 
 
 draw_set_color(make_color_rgb(128,128,128));
-draw_healthbar(922,118,1022,128,(hp/maxHp) * 100, c_black, c_red, c_green, 0, true, false);
+draw_healthbar(922,118,1022,128,(hp/maxHp) * 100, c_black, color1, color1, 0, true, false);
 
-draw_healthbar(922,200,1022,210,(hunger/maxHunger) * 100, c_black, c_blue, c_blue, 0, true, false);
+draw_healthbar(922,200,1022,210,(hunger/maxHunger) * 100, c_black, color2, color2, 0, true, false);
 
-draw_healthbar(922,220,1022,230,(nFF/maxNFF) * 100, c_black, c_purple, c_purple, 0, true, false);
+draw_healthbar(922,220,1022,230,(nFF/maxNFF) * 100, c_black, color3, color3, 0, true, false);
