@@ -951,6 +951,14 @@
             }
         },
         {
+            "Key": "b969d952-9ca1-4c75-a55d-4079b1cd37ed",
+            "Value": {
+                "id": "52e4b8c4-5e73-4c5d-bd8b-42becb37f397",
+                "resourcePath": "objects\\oYouCanPause\\oYouCanPause.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "baea3542-4ea5-4ca2-9edf-f88ff94bd484",
             "Value": {
                 "id": "77d2c54e-0fee-4527-8ca6-e676114e81fa",
