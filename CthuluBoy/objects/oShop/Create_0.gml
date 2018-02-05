@@ -11,3 +11,7 @@ depth--;
 
 
 shopVisible = false;
+
+
+buttonColor = make_color_rgb(55,85,68);
+buttonSelected = make_color_rgb(41,63,52);

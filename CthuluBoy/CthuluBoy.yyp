@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0912d61e-01e2-4205-b3cc-1b940f8e7b1c",
+            "Value": {
+                "id": "3d306cca-0419-4dc7-9bdd-3fad05b1c654",
+                "resourcePath": "sounds\\snd_scream2\\snd_scream2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0a0d1a14-550e-41c3-9258-0fa5c5402199",
             "Value": {
                 "id": "335baeee-19b6-4567-bf49-2ff5854300d2",
@@ -455,11 +463,27 @@
             }
         },
         {
+            "Key": "62740aa6-81fb-4ad6-af71-ee8797409eb0",
+            "Value": {
+                "id": "8d638a80-fa86-429e-8e88-d7a4e4bbb50d",
+                "resourcePath": "sprites\\sLose\\sLose.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "62be8d5d-8667-4b18-b0b6-c4e38f8c5add",
             "Value": {
                 "id": "15007926-620f-4f5a-bcf2-edae5920ab13",
                 "resourcePath": "objects\\oCultistFalling\\oCultistFalling.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6406a070-0807-49cd-963c-8d628a837825",
+            "Value": {
+                "id": "7d3d0b03-9034-43fc-b017-a73f17c596b2",
+                "resourcePath": "rooms\\room0111\\room0111.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -791,11 +815,27 @@
             }
         },
         {
+            "Key": "a2c02cef-88a7-478b-b469-c4c8af2dd392",
+            "Value": {
+                "id": "a95e6674-c765-4c1e-a832-7c30b68cf789",
+                "resourcePath": "sounds\\snd_scream4\\snd_scream4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a353c7e3-d327-41ab-bebe-e81f68665d67",
             "Value": {
                 "id": "f1c240de-cc39-4d31-b844-5a7b74335e3d",
                 "resourcePath": "objects\\oCave\\oCave.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a5ba469d-674c-4fc5-8a4a-dfcc84f513bc",
+            "Value": {
+                "id": "54d0b28f-5922-40b9-b46c-c17ff1ab683e",
+                "resourcePath": "sounds\\snd_scream3\\snd_scream3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -948,6 +988,14 @@
                 "id": "bdbf84cd-4606-41aa-8edf-e59e3b554f86",
                 "resourcePath": "objects\\oSpawnPeople\\oSpawnPeople.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cc252a7b-9303-4ff4-8c26-a4591b8895d9",
+            "Value": {
+                "id": "2827f2b8-3148-40f3-b9ea-2494abe1607d",
+                "resourcePath": "sprites\\sWin\\sWin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1196,6 +1244,14 @@
                 "id": "e0336fa6-519c-4895-9b3a-b68583eb3444",
                 "resourcePath": "objects\\oEgg\\oEgg.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f9c4c247-2181-4be2-afe3-4a4ea0fc0cc4",
+            "Value": {
+                "id": "76bb2024-418a-40d2-9dc0-cdf488a9d842",
+                "resourcePath": "rooms\\room011\\room011.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

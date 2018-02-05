@@ -19,3 +19,29 @@ if(oGameBase.powerLevel > 50){
 
 y = oy + sin(current_time/1000)*(2*scale)
 
+
+
+if(oGameBase.powerLevel > 56){
+
+	oy = approach(oy,-62,0.5);
+	
+}
+
+
+if(oy = -62){
+
+	room_goto(room011);
+	
+}
+
+if(oy = 167){
+	room_goto(room0111);
+}
+
+
+if(oGameBase.hp <= 0 or oGameBase.mood = 0){
+
+oy = approach(oy,167,0.25);
+
+	
+}

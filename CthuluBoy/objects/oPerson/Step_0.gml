@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(insanity < 200){
+if(insanity < 100 and sprite_index != s_cultist){
 timer ++
 if timer > timeneeded {
     tarx = random_range(0,122);
@@ -41,8 +41,20 @@ o_tentacle.tary = -103;
 hasBeenPicked = true;
 o_tentacle.hasPicked = true;
 
-var p = audio_play_sound(snd_scream,1,false);
-audio_sound_pitch(p,random_range(1,1.2));
+
+var num = irandom_range(0,3);
+if(num = 0){
+audio_play_sound(snd_scream,1,false);
+}
+if(num = 1){
+audio_play_sound(snd_scream2,1,false);
+}
+if(num = 2){
+audio_play_sound(snd_scream3,1,false);
+}
+if(num = 3){
+audio_play_sound(snd_scream4,1,false);
+}
 
 	
 }
@@ -53,7 +65,7 @@ if(hasBeenPicked){
 }
 
 
-with(oCultist){
+/*with(oCultist){
 var cultId = id;
 with(other){
 
@@ -69,6 +81,20 @@ insanity = clamp(insanity,0,100000);
 
 
 }
+}*/
+
+with(oCultist)
+{
+   if(point_distance(x,y,other.x,other.y) < other.detectionRadius)
+  {
+    other.insanity++;
+  }
+  else
+  {
+	  if(sprite_index != s_cultist){
+    other.insanity= max (other.insanity-.25,0); 
+	  }
+  }
 }
 
 if(insanity > 100){

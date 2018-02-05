@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oWriting",
     "eventList": [
-        
+        {
+            "id": "a66464ff-460d-4932-815b-142ae20f38a2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5b3b7135-79c9-4ccc-a557-52484694ba22"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -19,9 +19,9 @@ var mouseVar = point_in_rectangle(window_x,window_y,argument0,argument1,argument
 draw_set_color(argument4);
 draw_rectangle(argument0,argument1,argument2,argument3,false);
 if(mouseVar){
-draw_set_color(c_black);	
-draw_rectangle(argument0,argument1,argument2,argument3,true);
 draw_set_color(argument5);	
+draw_rectangle(argument0,argument1,argument2,argument3,false);
+draw_set_color(c_black);	
 draw_rectangle(argument0,argument1,argument2,argument3,true);
 if(mouse_check_button_pressed(mb_left)){
 if(oGameBase.numberOfFollowers >= argument6){

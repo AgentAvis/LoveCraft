@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oCandles",
     "eventList": [
-        
+        {
+            "id": "82132b25-b411-4d37-957f-f40cea16b964",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f3d01c9d-239c-4e95-ad6e-b827d109ea92"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
