@@ -9,7 +9,9 @@ timeneeded = room_speed * 1; //(a second ussually)
 
 spd = 0;
 
-
+z = 0
+zsp = 0
+hop = random_range(.4,.6) //how high do i hop
 
 hasBeenPicked = false;
 
@@ -19,3 +21,6 @@ insanity = 0;
 detectionRadius = 4;
 
 hspd = 0.25
+
+image_xscale = random_range(.9,1.1)
+image_yscale = image_xscale

@@ -38,11 +38,13 @@ tary = -90;
 
 
 if(y == -103 and hasPicked){
+	
+with (instance_create(160,-10,oPersonFalling)) { image_index = other.human.image_index  }	
 instance_destroy(human);
 
 oGameBase.hunger += 6;
 oGameBase.hunger = clamp(oGameBase.hunger,0,oGameBase.maxHunger);
-instance_create(160,-10,oPersonFalling);
+
 tary = -90;
 
 hasPicked = false;

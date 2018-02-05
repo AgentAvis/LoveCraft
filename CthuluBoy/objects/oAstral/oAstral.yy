@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "oAstral",
     "eventList": [
-        
+        {
+            "id": "535b3ff4-93f1-477e-98bc-e07297c934aa",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ea1e5027-0ffe-435b-8e6f-df8ad7be4db7"
+        },
+        {
+            "id": "e9a4a3cf-ff12-476a-b72c-d56bf4a5dcb5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ea1e5027-0ffe-435b-8e6f-df8ad7be4db7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -21,7 +21,19 @@ y = 99;
 }
 
 x = approach(x,tarx,hspd);
-
+if !hasBeenPicked {
+	if tarx != x {
+		if z <= 0 {
+			zsp += hop
+			z = .001
+		}
+	}
+	zsp -= .1
+	z += zsp
+	if z <= 0 { z = 0 }
+} else {
+	z = 0	
+}
 
 if(hasBeenPicked == false and o_tentacle.hasPicked == false and place_meeting(x,y,o_tentacle) and oGameBase.scaringTime = false){
 o_tentacle.human = id;
