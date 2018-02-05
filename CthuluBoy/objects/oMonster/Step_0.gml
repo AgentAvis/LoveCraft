@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if keyboard_check_pressed(ord("V")) { oGameBase.powerLevel ++ }
+//if keyboard_check_pressed(ord("V")) { oGameBase.powerLevel ++ }
 depth = oCaveBase.depth+1
 
 //if(oGameBase.powerLevel > 1){
