@@ -23,7 +23,7 @@ maxHp = 100;
 hunger = 20;
 maxHunger = 100;
 //Need for followers
-nFF = 0;
+nFF = 60;
 maxNFF = 100;
 numberOfFollowers = 2;
 
@@ -77,3 +77,7 @@ audio_sound_gain(snd, 1, 5000);
 firstDay = true;
 firstNight = true;
 
+instance_create(167,-10,oEgg);
+
+
+powerLevel = 0;

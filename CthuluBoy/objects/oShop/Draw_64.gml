@@ -3,7 +3,7 @@
 
 if(shopVisible){
 draw_set_color(c_black);
-draw_text(100,32,"X: " + string(oGameBase.mood) + " Y: " + string(yy) + " Scale: " + string(ss));
+draw_text(100,32,"X: " + string(oGameBase.powerLevel) + " Y: " + string(yy) + " Scale: " + string(ss));
 scr_make_gui();
 draw_set_color(c_ltgray);
 draw_rectangle(60,196,943,731,false);
