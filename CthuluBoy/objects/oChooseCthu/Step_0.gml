@@ -13,12 +13,12 @@ if(point_in_rectangle(mouse_x,mouse_y,x - sprite_get_width(sprite_index),y - spr
 
 
 if(selected){
-	image_xscale = 1;
-	image_yscale = 1;
-	global.monster = 0;
+	image_xscale = lerp(image_xscale,1,.2);
+	image_yscale = lerp(image_yscale,1,.2);
+	global.monster = 1;
 	
 }else{
 	
-	image_xscale = 0.8;
-	image_yscale = 0.8;
+	image_xscale = lerp(image_xscale,.8,.2);
+	image_yscale = lerp(image_yscale,.8,.2);
 }

@@ -10,7 +10,8 @@
         "b29f4d02-664d-4de1-a60d-49fb36712e4b",
         "ec0749d9-82c4-40d8-a36f-5310d948f063",
         "69db7f0f-b11e-47f9-a6a6-04d5b43a94aa",
-        "0d730fd3-b275-4c6a-8cdb-0824edcd54a3"
+        "0d730fd3-b275-4c6a-8cdb-0824edcd54a3",
+        "b46cee9e-c0fe-4951-8b3d-f94d48654036"
     ],
     "filterType": "GMSprite",
     "folderName": "charSelect",

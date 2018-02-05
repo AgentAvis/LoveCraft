@@ -223,14 +223,6 @@
             }
         },
         {
-            "Key": "3a5af38c-757d-44ae-98c0-5d4b09e14e6a",
-            "Value": {
-                "id": "febaeeb9-9d9a-44cd-b3c8-9763ea6539d5",
-                "resourcePath": "options\\ps4\\options_ps4.yy",
-                "resourceType": "GMPS4Options"
-            }
-        },
-        {
             "Key": "3a8ee94a-b07f-4616-a401-a66f9cfb7b5f",
             "Value": {
                 "id": "9c4873ab-fdbb-4c58-9193-1df772b041d3",
@@ -479,14 +471,6 @@
             }
         },
         {
-            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
-            "Value": {
-                "id": "4fa3cbf4-367e-4305-8284-978cfa671cae",
-                "resourcePath": "options\\html5\\options_html5.yy",
-                "resourceType": "GMHtml5Options"
-            }
-        },
-        {
             "Key": "76225307-766b-47a5-992e-1d02b6646472",
             "Value": {
                 "id": "f64ea491-73e2-467e-afa7-2723b69c61f7",
@@ -500,14 +484,6 @@
                 "id": "af4f4cb0-756b-4a86-8bfe-76d19b143cc0",
                 "resourcePath": "scripts\\generate_name\\generate_name.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
-            "Value": {
-                "id": "951e5674-2bf3-4442-8e14-63dfbb1afa74",
-                "resourcePath": "options\\windowsuap\\options_windowsuap.yy",
-                "resourceType": "GMWindowsUAPOptions"
             }
         },
         {
@@ -548,14 +524,6 @@
                 "id": "6a59921b-b1b1-432e-aefd-34345e681da3",
                 "resourcePath": "sprites\\chooseYourHorror\\chooseYourHorror.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
-            "Value": {
-                "id": "23c0c1ca-7690-4d63-acac-a8087d6d4142",
-                "resourcePath": "options\\ios\\options_ios.yy",
-                "resourceType": "GMiOSOptions"
             }
         },
         {
@@ -759,6 +727,14 @@
             }
         },
         {
+            "Key": "b46cee9e-c0fe-4951-8b3d-f94d48654036",
+            "Value": {
+                "id": "b58268e7-4bed-4d52-85d6-973454cbcb67",
+                "resourcePath": "sprites\\sGradient\\sGradient.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b4ddd8f2-2f77-4596-8d35-a7c7d8fdc2cc",
             "Value": {
                 "id": "dc203a4f-e116-4b7e-a279-61bc7c09994b",
@@ -927,14 +903,6 @@
             }
         },
         {
-            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
-            "Value": {
-                "id": "a2c8d4c4-fdc6-40dd-acb6-bd92bd399845",
-                "resourcePath": "options\\android\\options_android.yy",
-                "resourceType": "GMAndroidOptions"
-            }
-        },
-        {
             "Key": "ea1e5027-0ffe-435b-8e6f-df8ad7be4db7",
             "Value": {
                 "id": "52deeb56-38db-4c9d-b42b-b1e4bb886975",
@@ -1036,14 +1004,6 @@
                 "id": "9453a2e2-8b45-49e7-a351-9cee67574300",
                 "resourcePath": "views\\f6a7f78d-e515-40f6-b62d-0f1e8203e211.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f85efd3d-bcec-4ec0-8226-da808afda79d",
-            "Value": {
-                "id": "0fce006d-f07d-4dd1-ad53-a822b660f717",
-                "resourcePath": "options\\xboxone\\options_xboxone.yy",
-                "resourceType": "GMXBoxOneOptions"
             }
         },
         {
