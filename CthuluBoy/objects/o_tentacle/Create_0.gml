@@ -9,3 +9,5 @@ tarx = 0;
 
 hasPicked = false;
 human = noone;
+
+isScaring = false;

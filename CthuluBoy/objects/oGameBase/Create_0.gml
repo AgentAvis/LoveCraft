@@ -8,10 +8,10 @@
 
 
 //Relating to time
-days = 0;
-hours = 8;
+days = 1;
+hours = 7;
 minutes = 0;
-minuteRate = room_speed * 0.25;
+minuteRate = room_speed * 0.1;
 amOrPm = false
 timeStr = "";
 timer = 0
@@ -20,18 +20,18 @@ timer = 0
 //Dealing with Monster Stats
 hp = 100;
 maxHp = 100;
-hunger = 100;
+hunger = 20;
 maxHunger = 100;
 //Need for followers
-nFF = 50;
+nFF = 0;
 maxNFF = 100;
-numberOfFollowers = 0;
+numberOfFollowers = 2;
 
 name = "";
 
 //Scary Juice
-scaryJuice =0;
-maxScaryJuice = 0;
+scaryJuice =100;
+maxScaryJuice = 100;
 
 
 //Some boolean variables for controlling the activity
@@ -51,4 +51,29 @@ color1 = make_color_rgb(169,51,51);
 color2 = make_color_rgb(226,105,24);
 color3 = make_color_rgb(127,0,55);
 
+
+feedingTime = false;
+scaringTime = false;
+cultistSpawned = false;
+
+
+instance_create(x,y,oCultistGroup);
+
+instance_create(x,y,dayNight_visual);
+instance_create(x,y,oShop);
+
+
+name = generate_name();
+
+mood = 20;
+maxMood = 40;
+
+
+var snd = audio_play_sound(snd_music,1,true);
+audio_sound_gain(snd, 0, 0);
+audio_sound_gain(snd, 1, 5000);
+
+
+firstDay = true;
+firstNight = true;
 

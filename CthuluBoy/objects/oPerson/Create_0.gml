@@ -16,6 +16,6 @@ hasBeenPicked = false;
 
 insanity = 0;
 
-detectionRadius = 2.5;
+detectionRadius = 4;
 
 hspd = 0.25

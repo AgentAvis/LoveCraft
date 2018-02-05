@@ -9,10 +9,18 @@ if timer > minuteRate {
     
 	minutes++;
 	if(hunger <= 0){
-		hp-=0.5;	
+		hp-=0.25;
+		mood -= 0.01;
 	}
 	
-		hunger-=0.05;
+	hunger-=0.08;
+	
+	huner = clamp(hunger,0,maxHunger);
+	
+	nFF+= 0.1;
+	nFF = clamp(nFF,0,maxNFF);
+	
+	
 	
     timer = 0 //reset the timer
 }
@@ -41,3 +49,47 @@ timeStr = string_format(hours - 12,2,0) + ":" + string_replace(string_format(min
 	timeStr = string_format(hours,2,0) + ":" + string_replace(string_format(minutes,2,0)," ",string(0)) + " A.M";	
 	}
 }
+
+
+
+
+//Timing
+
+if(hours > 6 and hours < 18){
+feedingTime = true;	
+scaringTime = false;
+cultistSpawned = false;
+
+if(firstDay){
+	var p = instance_create(0,0,oTutorial);
+	p.whichTutorial = 0;
+	firstDay = false;
+}
+}else{
+	if(firstNight){
+	var p = instance_create(0,0,oTutorial);
+	p.whichTutorial = 1;
+	firstNight = false;
+}
+	feedingTime = false;
+	scaringTime = true;
+}
+
+
+if(scaringTime){
+
+if(!cultistSpawned){
+repeat(clamp(numberOfFollowers,1,5)){
+	instance_create(-23,99,oCultist);
+
+cultistSpawned = true;
+}
+	
+	
+}
+
+}
+
+
+mood = clamp(mood,0,maxMood);
+

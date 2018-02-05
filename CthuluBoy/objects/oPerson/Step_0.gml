@@ -23,12 +23,14 @@ y = 99;
 x = approach(x,tarx,hspd);
 
 
-if(hasBeenPicked == false and o_tentacle.hasPicked == false and place_meeting(x,y,o_tentacle)){
+if(hasBeenPicked == false and o_tentacle.hasPicked == false and place_meeting(x,y,o_tentacle) and oGameBase.scaringTime = false){
 o_tentacle.human = id;
 o_tentacle.tary = -103;
 hasBeenPicked = true;
 o_tentacle.hasPicked = true;
 
+var p = audio_play_sound(snd_scream,1,false);
+audio_sound_pitch(p,random_range(1,1.2));
 
 	
 }
@@ -46,7 +48,7 @@ with(other){
 if(point_distance(x,y,cultId.x,cultId.y) < detectionRadius){
 insanity++;	
 }else{
-if(insanity < 200){
+if(insanity < 100){
 insanity -= 0.25;
 insanity = clamp(insanity,0,100000);
 }
@@ -57,7 +59,7 @@ insanity = clamp(insanity,0,100000);
 }
 }
 
-if(insanity > 200){
+if(insanity > 100){
 hspd = 1;
 tarx = -23;
 
@@ -69,4 +71,10 @@ oGameBase.numberOfFollowers++;
 instance_destroy();	
 }
 	
+}
+
+
+if(o_tentacle.isScaring){
+	tarx = x + (1 * (sign(x - o_tentacle.x))) 
+	tarx = clamp(tarx,0,123);
 }
