@@ -9,7 +9,7 @@ rotSpd = irandom_range(1,5);
 image_xscale = 0.25;
 image_yscale = 0.25;
 
-oGameBase.mood += 2;
+oGameBase.mood += 9;
 
 depth = -1000
 

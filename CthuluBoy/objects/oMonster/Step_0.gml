@@ -7,12 +7,12 @@ depth = oCaveBase.depth+1
 
 //}
 
-if(oGameBase.powerLevel > 0){
+if(oGameBase.powerLevel > 30){
 	sprite_index = stage[2];
 	scale = .5
 }
 
-if(oGameBase.powerLevel > 1){
+if(oGameBase.powerLevel > 50){
 	sprite_index = stage[3];
 	scale = .75
 }

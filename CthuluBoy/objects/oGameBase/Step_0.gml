@@ -21,11 +21,15 @@ if timer > minuteRate {
 	nFF = clamp(nFF,0,maxNFF);
 	
 	if(hunger > maxHunger/2){
-	powerLevel+=0.1;	
+	powerLevel+=0.01;	
 	}
 	
 	if(nFF < maxNFF/2){
-	powerLevel += 0.1;	
+	powerLevel += 0.01;	
+	}
+	
+	if(nFF > maxNFF * 0.75){
+		mood -= 0.01;	
 	}
 	
     timer = 0 //reset the timer

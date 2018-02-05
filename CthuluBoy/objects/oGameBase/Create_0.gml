@@ -25,7 +25,7 @@ maxHunger = 100;
 //Need for followers
 nFF = 60;
 maxNFF = 100;
-numberOfFollowers = 2;
+numberOfFollowers = 200;
 
 name = "";
 
