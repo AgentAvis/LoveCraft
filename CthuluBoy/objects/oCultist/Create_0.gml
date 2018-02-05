@@ -6,6 +6,7 @@ tarx = random_range(25,113);
 z = 0
 zsp = 0
 timer = 0
+hop = .5
 timeneeded = room_speed * 1; //(a second ussually)
 
 spd = 0;

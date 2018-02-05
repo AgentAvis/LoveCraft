@@ -20,19 +20,16 @@ y = 99;
 }
 
 x = approach(x,tarx,0.25);
-if !hasBeenPicked {
-	if tarx != x {
-		if z <= 0 {
-			zsp += hop
-			z = .001
-		}
+
+if tarx != x {
+	if z <= 0 {
+		zsp += hop
+		z = .001
 	}
-	zsp -= .1
-	z += zsp
-	if z <= 0 { z = 0 }
-} else {
-	z = 0	
 }
+zsp -= .1
+z += zsp
+if z <= 0 { z = 0 }
 
 if(!oGameBase.scaringTime){
 
