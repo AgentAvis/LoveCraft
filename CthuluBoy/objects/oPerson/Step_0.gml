@@ -78,7 +78,7 @@ tarx = -23;
 sprite_index = s_cultist;
 
 if(x <= -23){
-oGameBase.nFF -= 3;
+oGameBase.nFF -= 6;
 oGameBase.numberOfFollowers++;
 instance_destroy();	
 }

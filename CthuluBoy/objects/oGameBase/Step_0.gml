@@ -17,10 +17,16 @@ if timer > minuteRate {
 	
 	huner = clamp(hunger,0,maxHunger);
 	
-	nFF+= 0.1;
+	nFF+= 0.03;
 	nFF = clamp(nFF,0,maxNFF);
 	
+	if(hunger > maxHunger/2){
+	powerLevel+=0.1;	
+	}
 	
+	if(nFF < maxNFF/2){
+	powerLevel += 0.1;	
+	}
 	
     timer = 0 //reset the timer
 }

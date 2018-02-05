@@ -9,4 +9,4 @@ alph2_tar = 0;
 
 
 alph3 = 1;
-depth = 200;
+depth = 400;

@@ -9,3 +9,4 @@ x = random_range(144,188);
 y = random_range(-15,-10);
 
 
+depth = -1000

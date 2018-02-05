@@ -8,3 +8,4 @@ rotSpd = irandom_range(1,5);
 
 
 
+depth = -1000
