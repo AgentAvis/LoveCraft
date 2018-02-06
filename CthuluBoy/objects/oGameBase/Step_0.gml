@@ -24,6 +24,11 @@ if timer > minuteRate {
 	powerLevel+=0.01;	
 	}
 	
+	if(hunger > maxHunger * 0.75){
+	hp+= 0.005;
+	hp = clamp(hp,0,maxHp);
+	}
+	
 	if(nFF < maxNFF/2){
 	powerLevel += 0.01;	
 	}
