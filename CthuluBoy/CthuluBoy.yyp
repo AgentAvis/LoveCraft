@@ -287,14 +287,6 @@
             }
         },
         {
-            "Key": "3a5af38c-757d-44ae-98c0-5d4b09e14e6a",
-            "Value": {
-                "id": "e6b87040-e32b-4cb4-b1a2-1133db99a80d",
-                "resourcePath": "options\\ps4\\options_ps4.yy",
-                "resourceType": "GMPS4Options"
-            }
-        },
-        {
             "Key": "3a8ee94a-b07f-4616-a401-a66f9cfb7b5f",
             "Value": {
                 "id": "9c4873ab-fdbb-4c58-9193-1df772b041d3",
@@ -695,14 +687,6 @@
             }
         },
         {
-            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
-            "Value": {
-                "id": "2a89984d-b006-4c85-bec9-0aaf05691447",
-                "resourcePath": "options\\html5\\options_html5.yy",
-                "resourceType": "GMHtml5Options"
-            }
-        },
-        {
             "Key": "76225307-766b-47a5-992e-1d02b6646472",
             "Value": {
                 "id": "f64ea491-73e2-467e-afa7-2723b69c61f7",
@@ -735,19 +719,19 @@
             }
         },
         {
+            "Key": "7c0f1011-4691-4146-a6bd-fb6e12612bbb",
+            "Value": {
+                "id": "9a650900-9ae5-4896-acd0-b9d07d6d06f8",
+                "resourcePath": "sounds\\wee_woo\\wee_woo.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7d7ab4d7-1d02-45e4-ab83-c7b6a80d6e83",
             "Value": {
                 "id": "9e897f97-8414-49c8-a83f-ffe3fd86fcb1",
                 "resourcePath": "views\\7d7ab4d7-1d02-45e4-ab83-c7b6a80d6e83.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
-            "Value": {
-                "id": "991dd5aa-f1b3-4b6a-9b1c-196ca939da7f",
-                "resourcePath": "options\\windowsuap\\options_windowsuap.yy",
-                "resourceType": "GMWindowsUAPOptions"
             }
         },
         {
@@ -796,14 +780,6 @@
                 "id": "6a59921b-b1b1-432e-aefd-34345e681da3",
                 "resourcePath": "sprites\\chooseYourHorror\\chooseYourHorror.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
-            "Value": {
-                "id": "994b0f9e-651d-4a70-845f-cfc1f083bd51",
-                "resourcePath": "options\\ios\\options_ios.yy",
-                "resourceType": "GMiOSOptions"
             }
         },
         {
@@ -1383,14 +1359,6 @@
             }
         },
         {
-            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
-            "Value": {
-                "id": "504ce110-cb8d-4f93-a2c3-117c08eced05",
-                "resourcePath": "options\\android\\options_android.yy",
-                "resourceType": "GMAndroidOptions"
-            }
-        },
-        {
             "Key": "e5d93929-5584-46c7-82c7-828715d3911d",
             "Value": {
                 "id": "3caf1459-aad0-49e7-a655-4930abac862e",
@@ -1516,14 +1484,6 @@
                 "id": "9453a2e2-8b45-49e7-a351-9cee67574300",
                 "resourcePath": "views\\f6a7f78d-e515-40f6-b62d-0f1e8203e211.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f85efd3d-bcec-4ec0-8226-da808afda79d",
-            "Value": {
-                "id": "5c98aacf-0c23-42c5-b4f1-4461ee210950",
-                "resourcePath": "options\\xboxone\\options_xboxone.yy",
-                "resourceType": "GMXBoxOneOptions"
             }
         },
         {

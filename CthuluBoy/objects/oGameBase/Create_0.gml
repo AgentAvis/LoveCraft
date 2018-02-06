@@ -30,8 +30,8 @@ numberOfFollowers = 1;
 name = "";
 
 //Scary Juice
-scaryJuice =100;
-maxScaryJuice = 100;
+scaryJuice =400;
+maxScaryJuice = 400;
 
 
 //Some boolean variables for controlling the activity

@@ -4,6 +4,12 @@ if keyboard_check_pressed(ord("P")) {  room_persistent = true room_goto(rMenu) }
 if room = room0 and startover { room_persistent = false room_restart() startover = false }
 if room = room0 { canload = true }
 
+if room = room0 { with (oYouCanPause) {
+	if keyboard_check_pressed(ord("P")) {
+		die = true
+	}
+}}
+
 if room != room0 { exit }
 
 //if days < 1 { exit }

@@ -16,6 +16,6 @@ if point_distance(x,y,dest,y) < .25 and boarded {
 if die {
 	image_alpha *= .995	
 	if image_alpha <= .01 { instance_destroy() }
-	
+	audio_stop_sound(weewoo)
 }
 

@@ -3,7 +3,7 @@
 event_inherited()
 
 if instance_exists(gun) {
-	gun.rate = room_speed
+	gun.rate = 5
 	if oGameBase.scaringTime { instance_deactivate_object(gun) } else { instance_activate_object(gun) }
 	
 	if oGameBase.hours > 19 and oGameBase.hours < 7 { instance_destroy(gun) }
