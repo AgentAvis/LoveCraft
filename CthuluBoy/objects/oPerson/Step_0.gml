@@ -16,8 +16,8 @@ spd += 0.02;
 y += spd;
 
 
-if(y > 99){
-y = 99;	
+if(y > 100.5){
+y = 100.5;	
 }
 
 x = approach(x,tarx,hspd);

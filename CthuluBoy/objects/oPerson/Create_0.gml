@@ -14,7 +14,7 @@ zsp = 0
 hop = random_range(.4,.6) //how high do i hop
 
 hasBeenPicked = false;
-
+depth = -1002
 
 insanity = 0;
 
