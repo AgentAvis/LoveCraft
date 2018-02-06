@@ -8,12 +8,12 @@ if instance_exists(gun) {
 	
 	if oGameBase.hours > 19 and oGameBase.hours < 7 { instance_destroy(gun) }
 	if hasBeenPicked {  instance_destroy(gun)  }
-	with (gun) { x = other.x y = 95+2-other.z-vspeed }
+	with (gun) { x = other.x y = 95+4-other.z-vspeed }
 	
 
 }
-if(y > 95){
-	y = 95
+if(y > 100){
+	y = 100
 }
 //if !hasBeenPicked {
 		
