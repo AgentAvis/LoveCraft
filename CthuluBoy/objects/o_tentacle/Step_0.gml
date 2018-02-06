@@ -4,7 +4,12 @@
 image_blend = global.mColor
 
 x = lerp(x,tarx,0.03);
-y = approach(y,tary,4);
+
+if(oGameBase.powerLevel > 30){
+	tentSpeed = 8;
+}
+
+y = approach(y,tary,tentSpeed);
 
 
 if(!oShop.shopVisible){
