@@ -11,3 +11,5 @@ hasPicked = false;
 human = noone;
 
 isScaring = false;
+
+tentSpeed = 4;
