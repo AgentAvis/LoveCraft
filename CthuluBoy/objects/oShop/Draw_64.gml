@@ -28,7 +28,7 @@ if(!instance_exists(oCandles)){
 scr_button(204,562,204+100,562+100,buttonColor,buttonSelected,3,0,0,oCandles,"Candles \n (Cost: 3)");
 }
 if(!instance_exists(oAstral)){
-scr_button(320,562,320+100,562+100,buttonColor,buttonSelected,7,0,0,oAstral,"oAstral \n (Cost: 7)");
+scr_button(320,562,320+100,562+100,buttonColor,buttonSelected,7,0,0,oAstral,"Astral \n (Cost: 7)");
 }
 if(!instance_exists(oScroll)){
 scr_button(436,562,436+100,562+100,buttonColor,buttonSelected,3,0,0,oScroll,"Scroll \n (Cost: 3)");

@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if !oGameBase.scaringTime {
+	isScaring = false;
+}
+
 image_blend = global.mColor
 
 x = lerp(x,tarx,0.03);
