@@ -20,8 +20,8 @@ timer = 0
 //Dealing with Monster Stats
 hp = 100;
 maxHp = 100;
-hunger = 20;
-maxHunger = 100;
+hunger = 20+50;
+maxHunger = 100+100;
 //Need for followers
 nFF = 60;
 maxNFF = 100;

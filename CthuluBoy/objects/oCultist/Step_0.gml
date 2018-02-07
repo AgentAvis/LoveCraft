@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if paused exit;
+
 timer ++
 if timer > timeneeded {
     //tarx = random_range(0,122);

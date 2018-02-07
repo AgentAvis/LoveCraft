@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+if paused { exit }
+
 x = lerp(x,dest,.05)
+
+if paused exit;
 
 
 if point_distance(x,y,dest,y) < .25 and boarded { 

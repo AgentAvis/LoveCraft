@@ -26,3 +26,5 @@ image_xscale = random_range(.9,1.1)
 image_yscale = image_xscale
 
 image_alpha = 0
+
+walldis = random_range(4,6)

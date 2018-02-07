@@ -2,6 +2,8 @@
 // You can write your code in this editor
 event_inherited()
 
+if paused exit;
+
 if instance_exists(gun) {
 	
 	if oGameBase.scaringTime { instance_deactivate_object(gun) } else { instance_activate_object(gun) }

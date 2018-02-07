@@ -4,3 +4,5 @@ startover = false
 
 canload = false
 global.dead = 0
+globalvar paused;
+paused = false;

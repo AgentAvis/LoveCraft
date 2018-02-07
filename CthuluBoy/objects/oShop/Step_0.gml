@@ -12,3 +12,7 @@ if(keyboard_check_pressed(ord("S"))){
 	shopVisible = !shopVisible;
 	
 }
+
+if shopVisible and mouse_check_button_pressed(mb_right) {
+	shopVisible = false
+}

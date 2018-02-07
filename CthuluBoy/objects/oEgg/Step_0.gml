@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+if paused exit;
 
 image_blend = global.mColor;
 spd += 0.04;

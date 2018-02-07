@@ -663,14 +663,6 @@
             }
         },
         {
-            "Key": "708d9217-5b58-4c67-aa94-f12486647837",
-            "Value": {
-                "id": "d7f0d854-fd24-4645-a5fb-07640cafafae",
-                "resourcePath": "objects\\oPolice_car2\\oPolice_car2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "74f739b5-e30e-476e-927e-e3623ec6dab2",
             "Value": {
                 "id": "e7d00fbe-97f0-4ff4-832b-0bcda2358ab9",

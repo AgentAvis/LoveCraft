@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if paused exit;
+
 if image_alpha <1 { image_alpha += .1 } 
 
 if(insanity < 100 and sprite_index != s_cultist){
@@ -127,6 +130,11 @@ instance_destroy();
 
 
 if(o_tentacle.isScaring){
-	tarx = x + (1 * (sign(x - o_tentacle.x))) 
-	tarx = clamp(tarx,0,123);
+	tarx = x + (clamp(1-(point_distance(o_tentacle.x,y,x,y)/35),0,1) * (sign(x - o_tentacle.x))) 
+	//tarx = clamp(tarx,walldis,123-walldis);
+} else {
+	//tarx = x + (clamp(1-(point_distance(o_tentacle.x,o_tentacle.y +102,x,y)/10)/2,0,1) * (sign(x - o_tentacle.x))) 
+}
+if sprite_index != s_cultist {
+	tarx = clamp(tarx,walldis,123-walldis);
 }

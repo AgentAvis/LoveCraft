@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if paused exit;
+
 timer ++
 
 image_angle = angle_lerp(image_angle,point_direction(x,y,o_tentacle.x-1,o_tentacle.y +102),.1);
