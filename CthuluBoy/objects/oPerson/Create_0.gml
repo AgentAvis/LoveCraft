@@ -26,3 +26,5 @@ image_xscale = random_range(.9,1.1)
 image_yscale = image_xscale
 
 depth--;
+
+//image_alpha = 0;

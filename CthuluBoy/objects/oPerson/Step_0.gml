@@ -112,3 +112,6 @@ if(o_tentacle.isScaring and sprite_index != s_cultist){
 	tarx = x + (1 * (sign(x - o_tentacle.x))) 
 	tarx = clamp(tarx,0,123);
 }
+
+
+//image_alpha = approach(image_alpha,1,0.1);
