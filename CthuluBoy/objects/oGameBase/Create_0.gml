@@ -20,8 +20,8 @@ timer = 0
 //Dealing with Monster Stats
 hp = 100;
 maxHp = 100;
-hunger = 20+50;
-maxHunger = 100+100;
+hunger = 20;
+maxHunger = 100;
 //Need for followers
 nFF = 60;
 maxNFF = 100;
@@ -30,8 +30,8 @@ numberOfFollowers = 1;
 name = "";
 
 //Scary Juice
-scaryJuice =400;
-maxScaryJuice = 400;
+scaryJuice =100;
+maxScaryJuice = 100;
 
 
 //Some boolean variables for controlling the activity
@@ -69,9 +69,17 @@ mood = 20;
 maxMood = 40;
 
 
-var snd = audio_play_sound(snd_music,1,true);
+snd = audio_play_sound(snd_music,1,true);
 audio_sound_gain(snd, 0, 0);
-audio_sound_gain(snd, 1, 5000);
+//audio_sound_gain(snd, 1, 5000);
+audioTarget = 1;
+vol = 0;
+snd2 = audio_play_sound(music2,1,true);
+audio_sound_gain(snd2, 0, 0);
+audioTarget2 = 0;
+vol2 = 0;
+
+
 
 
 firstDay = true;

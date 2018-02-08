@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if paused exit;
+
 
 
 //Dealing with the progression of days
@@ -13,7 +13,9 @@ if timer > minuteRate {
 		mood -= 0.01;
 	}
 	
+	if(!instance_exists(oTutorial)){
 	hunger-=0.08;
+	}
 	
 	huner = clamp(hunger,0,maxHunger);
 	
@@ -108,3 +110,18 @@ cultistSpawned = true;
 
 mood = clamp(mood,0,maxMood);
 
+
+if(hours = 6){
+audioTarget = 1;
+audioTarget2 = 0;
+}
+
+if(hours = 18){
+audioTarget = 0;
+audioTarget2 = 1;
+}
+
+vol = approach(vol,audioTarget,0.01);
+audio_sound_gain(snd,vol,0);
+vol2 = approach(vol2,audioTarget2,0.01);
+audio_sound_gain(snd2,vol2,0);

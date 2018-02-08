@@ -11,7 +11,7 @@ spd = 0;
 
 z = 0
 zsp = 0
-hop = random_range(.5,.6) //how high do i hop
+hop = random_range(.4,.6) //how high do i hop
 
 hasBeenPicked = false;
 depth = -1002
@@ -25,6 +25,4 @@ hspd = 0.25
 image_xscale = random_range(.9,1.1)
 image_yscale = image_xscale
 
-image_alpha = 0
-
-walldis = random_range(4,6)
+depth--;

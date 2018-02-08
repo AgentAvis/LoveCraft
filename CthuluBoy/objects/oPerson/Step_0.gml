@@ -1,10 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if paused exit;
-
-if image_alpha <1 { image_alpha += .1 } 
-
 if(insanity < 100 and sprite_index != s_cultist){
 timer ++
 if timer > timeneeded {
@@ -38,26 +34,8 @@ if !hasBeenPicked {
 } else {
 	z = 0	
 }
-if hasBeenPicked and o_tentacle.human != id {
-	if (o_tentacle.y == -103) { 
-		with (instance_create(160,-10,oPersonFalling)) { sprite_index = other.sprite_index image_index = other.image_index  }	
-		instance_destroy();
-		oGameBase.hunger += 6;
-		with (oGameBase) {
-			if hunger > maxHunger {
-				hp += (hunger-maxHunger)/2
-			}
-		}
-		oGameBase.hunger = clamp(oGameBase.hunger,0,oGameBase.maxHunger);
-		
-	}
-	
-	
-		
-		
-}
 
-if(hasBeenPicked == false and place_meeting(x,y,o_tentacle) and oGameBase.scaringTime = false){
+if(hasBeenPicked == false and o_tentacle.hasPicked == false and place_meeting(x,y,o_tentacle) and oGameBase.scaringTime = false){
 o_tentacle.human = id;
 o_tentacle.tary = -103;
 hasBeenPicked = true;
@@ -81,10 +59,6 @@ audio_play_sound(snd_scream4,1,false);
 	
 }
 
-if(hasBeenPicked){
-	x = o_tentacle.x;
-	y = o_tentacle.y + 100;
-}
 
 
 /*with(oCultist){
@@ -134,12 +108,7 @@ instance_destroy();
 }
 
 
-if(o_tentacle.isScaring){
-	tarx = x + (clamp(1-(point_distance(o_tentacle.x,y,x,y)/35),0,1) * (sign(x - o_tentacle.x))) 
-	//tarx = clamp(tarx,walldis,123-walldis);
-} else {
-	//tarx = x + (clamp(1-(point_distance(o_tentacle.x,o_tentacle.y +102,x,y)/10)/2,0,1) * (sign(x - o_tentacle.x))) 
-}
-if sprite_index != s_cultist {
-	tarx = clamp(tarx,walldis,123-walldis);
+if(o_tentacle.isScaring and sprite_index != s_cultist){
+	tarx = x + (1 * (sign(x - o_tentacle.x))) 
+	tarx = clamp(tarx,0,123);
 }
