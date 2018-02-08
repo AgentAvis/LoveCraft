@@ -43,6 +43,11 @@ if hasBeenPicked and o_tentacle.human != id {
 		with (instance_create(160,-10,oPersonFalling)) { sprite_index = other.sprite_index image_index = other.image_index  }	
 		instance_destroy();
 		oGameBase.hunger += 6;
+		with (oGameBase) {
+			if hunger > maxHunger {
+				hp += (hunger-maxHunger)/2
+			}
+		}
 		oGameBase.hunger = clamp(oGameBase.hunger,0,oGameBase.maxHunger);
 		
 	}

@@ -20,3 +20,5 @@ if(image_alpha <=0){
 	instance_destroy();
 }
 
+image_xscale = .75
+image_yscale = .75

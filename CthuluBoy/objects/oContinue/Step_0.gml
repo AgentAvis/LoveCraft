@@ -6,3 +6,9 @@ room = room0;
 }
 	
 }
+scale = 1
+text = "Continue"
+alph = 1
+iscale = .5
+yoffset = 5
+instance_change(oButton,false)

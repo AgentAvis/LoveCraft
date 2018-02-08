@@ -5,7 +5,7 @@ image_yscale = scale
 draw_self()
 draw_set_halign(fa_center)
 draw_set_color(c_black)
-draw_text_transformed(x,y-(11*scale),text,scale,scale,0)
+draw_text_transformed(x,y-(11*scale)+yoffset,text,scale*iscale,scale*iscale,0)
 
 col = c_white
 if text = "Quit?" {
@@ -15,5 +15,5 @@ if text = "Quit?" {
 		alph = lerp(alph,0,.1)
 	}
 	mscale = scale/2
-	draw_text_transformed_color(x,y+(11*mscale),"WARNING: all progress will be lost on quit!",mscale,mscale,0,col,col,col,col,alph)		
+	draw_text_transformed_color(x,y+(23*mscale),"WARNING: all progress will be lost on quit!",mscale*iscale,mscale*iscale,0,col,col,col,col,alph)		
 }

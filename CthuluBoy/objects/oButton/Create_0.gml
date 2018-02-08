@@ -3,3 +3,5 @@
 scale = 1
 text = ""
 alph = 0
+iscale = 1
+yoffset = 0
