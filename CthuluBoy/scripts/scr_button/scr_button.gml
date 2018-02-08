@@ -18,7 +18,7 @@ var mouseVar = point_in_rectangle(window_x,window_y,argument0,argument1,argument
 //var scale = 1;
 draw_set_color(argument4);
 //draw_rectangle(argument0,argument1,argument2,argument3,false);
-scr_draw_sprite_rect(argument0,argument1,argument2,argument3,shopWindow,0);
+scr_draw_sprite_rect(argument0,argument1,argument2,argument3,sShopButton,0);
 if(mouseVar){
 draw_set_color(argument5);	
 draw_rectangle(argument0,argument1,argument2,argument3,false);

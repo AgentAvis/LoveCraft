@@ -70,7 +70,7 @@ if(oGameBase.scaringTime){
 	if(mouse_check_button(mb_left)){
 		if( oGameBase.scaryJuice > 0){
 		tary = 0;
-		oGameBase.scaryJuice -= 1;
+		oGameBase.scaryJuice = 999;
 		}else{
 			tary = -90;
 		}

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if fadein < 1 { fadein = lerp(fadein,1,.1) }
 if(insanity < 100 and sprite_index != s_cultist){
 timer ++
 if timer > timeneeded {
@@ -33,6 +33,21 @@ if !hasBeenPicked {
 	if z <= 0 { z = 0 }
 } else {
 	z = 0	
+}
+if (hasBeenPicked) == false and o_tentacle.hasPicked == true and point_distance(x,y,o_tentacle.x,o_tentacle.y+102) < 2 {
+	hasBeenPicked = true
+	with (instance_create(160,-10,oPersonFalling)) { sprite_index = other.sprite_index image_index = other.image_index  }	
+	instance_destroy();
+
+	oGameBase.hunger += 6;
+	oGameBase.hunger = clamp(oGameBase.hunger,0,oGameBase.maxHunger);
+	
+}
+
+if hasBeenPicked {
+	x = o_tentacle.x
+	y = o_tentacle.y + 1
+	
 }
 
 if(hasBeenPicked == false and o_tentacle.hasPicked == false and place_meeting(x,y,o_tentacle) and oGameBase.scaringTime = false){
